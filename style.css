@@ -215,7 +215,11 @@ transition-duration: 400ms;
   
   .heart:hover > .heart__hover {
     display: block;
-   color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+   background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+   -webkit-background-clip: text;
+   color: transparent;
+   
+   
   }
   
   .heart:hover > .heart__normal {
@@ -329,7 +333,11 @@ font-family: 'Shrikhand', cursive;
  
     /* height: 1060px; */
     /* height: 1132px; */
-    height: 1087px
+    height: 1087px;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 1200px;
 }
  .title_menu{
     display: flex;
