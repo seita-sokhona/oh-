@@ -326,14 +326,15 @@ font-family: 'Shrikhand', cursive;
     border-radius: 50px 50px 0px 0px;
     margin-top: 33px;
     z-index: 1;
-    position: absolute;
+    position: relative;
     width: 100%;
+    align-content: center;
     
     padding-top: 20px;
  
     /* height: 1060px; */
     /* height: 1132px; */
-    height: 1087px;
+    /* height: 1087px; */
     display: block;
      margin-left: auto;
      margin-right: auto;
@@ -343,12 +344,28 @@ font-family: 'Shrikhand', cursive;
     display: flex;
     margin-left: 33px;
     justify-content: space-around;
-} 
+}
+
+
 .title_menu i{
     font-size: 33px; 
     display: flex;
     margin-top: 20px;
 }
+
+ .title {
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  } 
+
+  .title > h4{
+
+   
+    text-overflow: ellipsis;
+   
+  } 
 
 
 .entree{
@@ -379,6 +396,10 @@ box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 border-radius: 15.0431px;
 display: flex;
 justify-content: space-between;
+ /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+ 
 
 
 
@@ -530,12 +551,13 @@ transition-property: transform;
     padding-bottom: 20px;
     
      position: relative; 
+     margin-top: 70px;
      /* top: 1113px; */
-     top: 1195px; 
+     /* top: 1195px;  */
      /* top: 1116px; */
      /* top: 1152px; */
  
-     width: 97%;
+     width: 100%;
    
        
   
