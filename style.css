@@ -165,10 +165,10 @@ transition-duration: 400ms;
     padding-right: 20px;
 }
 
-.card_restaurant{
+/* .card_restaurant{
     
-    height: 1087px;
-}   
+   height: 1087px; 
+}    */
     
 .resto_img_btn{
     position: relative;
@@ -282,6 +282,11 @@ font-family: 'Shrikhand', cursive;
 }
 .footer_container a {
     color: #fff;  
+
+}
+.title > h4{
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /******************************* la palette du gout *****************************/
@@ -729,9 +734,9 @@ transition-property: transform;
 
    .la_palette{
     width: 82%;
-    right: 100px;
+    /* right: 100px;
     margin-top: 43px;
-    height: 1050px;
+    height: 1050px; */
   
 }
 
